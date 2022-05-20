@@ -114,13 +114,13 @@ defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
 defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 # Disable the Dock by default
-defaults write com.apple.dock autohide-delay -float 1000
+# defaults write com.apple.dock autohide-delay -float 1000
 
-# Right-oriented Dock
-defaults write com.apple.Dock orientation -string "right"
+# Bottom-oriented Dock
+defaults write com.apple.Dock orientation -string "bottom"
 
-# Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+# Do not automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool false
 
 # Show only open applications in the Dock
 defaults write com.apple.dock static-only -bool true
@@ -132,7 +132,7 @@ defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock showhidden -bool true
 
 # Set the dock icon size
-defaults write com.apple.dock tilesize -int 64
+defaults write com.apple.dock tilesize -int 32
 
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1

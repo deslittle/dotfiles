@@ -42,6 +42,7 @@ cask "docker"
 cask "firefox-developer-edition", args: {language: "en-GB"}
 cask "font-victor-mono-nerd-font"
 cask "google-chrome"
+cask "brave-browser"
 cask "guitar-pro"
 cask "iterm2"
 cask "scroll-reverser"
@@ -49,6 +50,3 @@ cask "slack"
 cask "steam"
 cask "visual-studio-code"
 cask "vlc"
-
-mas "Affinity Designer", id: 824171161
-mas "Affinity Photo", id: 824183456
